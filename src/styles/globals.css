@@ -1,0 +1,29 @@
+/*IMPORT FONT*/
+
+/*GLOBALS*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color1: red;
+  --color2: blue;
+  --color3: green;
+  --color4: yellow;
+  --font1: ;
+  --font2: ;
+  --font3: ;
+  --sizeTitle: 2vw;
+  --sizeSubTitle: 1.5vw;
+  --sizeText: 1vw;
+  --radius: 10px;
+}
+
+/*IMPORT CSS MOBILE FIRST*/
+@import url('admin.css');
+@import url('mobile.css');
+@import url('tablet.css') screen and (min-width: 768px);
+@import url('desktop.css') screen and (min-width: 1024px);

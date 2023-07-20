@@ -1,0 +1,54 @@
+#adminCorner {
+    padding: 5px;
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    background: rgb(165, 165, 165);
+    top: 0;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    transition: width 0.3s;
+    font-size: 17px;
+    border-radius: 0px 0px 0px 10px;
+
+}
+
+#adminCorner.isOpen {
+    width: 335px;
+    transition: width 0.3s;
+}
+
+#adminCorner button {
+    border: none;
+    background: none;
+    width: 35px;
+    height: 35px;
+}
+
+#adminForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+#adminCorner img {
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+#adminCorner img:hover {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    transition: 0.3s;
+}
+
+#adminCorner input {
+    padding: 5px;
+    border-radius: 10px;
+    width: 120px;
+}
